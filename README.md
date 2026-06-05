@@ -20,8 +20,8 @@ gh release create v0.1.0 --title "v0.1.0" --notes "Release"
 3. Compute the tarball SHA256 and update the formula:
 
 ```bash
-URL="https://github.com/umars28/sshm/archive/refs/tags/v0.1.0.tar.gz"
-curl -L -o v0.1.0.tar.gz "$URL"
+URL="https://github.com/umars28/sshm/archive/refs/tags/v0.1.1.tar.gz"
+curl -L -o v0.1.1.tar.gz "$URL"
 shasum -a 256 v0.1.0.tar.gz
 	# copy the hex into homebrew-tap/Formula/sshm.rb replacing REPLACE_WITH_SHA256
 ```

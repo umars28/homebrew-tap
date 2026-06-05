@@ -3,7 +3,7 @@ class Sshm < Formula
   homepage "https://github.com/umars28/sshm"
   url "https://github.com/umars28/sshm/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "299b7bf7e5b25682f3a777a57fb6434317d8a6f57040f62da85bc2252901b03a"
-  license "MIT"
+  license "Apache-2.0"
 
   depends_on "go" => :build
 
